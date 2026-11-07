@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
+<style>#rot{position:fixed;inset:0;display:none;z-index:9;background:#04083a;color:#fff;font:600 22px sans-serif;align-items:center;justify-content:center;text-align:center;flex-direction:column;line-height:1.7}@media (orientation:portrait){#rot{display:flex}}</style><script>(function(){function go(){var d=document.documentElement;var p=d.requestFullscreen?d.requestFullscreen({navigationUI:'hide'}):null;Promise.resolve(p).then(function(){if(screen.orientation&&screen.orientation.lock)return screen.orientation.lock('landscape');}).catch(function(){});}document.addEventListener('pointerup',function(){if(!document.fullscreenElement)go();},true);document.addEventListener('DOMContentLoaded',function(){var r=document.createElement('div');r.id='rot';r.innerHTML='화면을 누르면 가로 전체화면으로 바뀌어요<br><small>안 바뀌면 폰을 가로로 돌려 주세요</small>';document.body.appendChild(r);});})();</script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":41843888,"index.wasm":37902138},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":44905672,"index.wasm":37902138},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
